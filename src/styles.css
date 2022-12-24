@@ -101,9 +101,10 @@
 }
 
 .Switch_slide .Switch_slide_pinch:last-child {
-  filter: brightness(105%);
+  filter: brightness(104%);
   box-shadow: 0 0 2em 0.8em rgba(0, 0, 0, 0.22),
-    inset 20em 10em 15em 1em rgba(0, 0, 0, 0.22);
+    inset 20em 10em 15em 1em rgba(0, 0, 0, 0.22),
+    inset 15em 5em 10em 0.1em rgba(0, 0, 0, 0.02);
 }
 
 .Switch_slide.Switch_slide--switched {
