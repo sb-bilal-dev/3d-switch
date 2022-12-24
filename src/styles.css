@@ -73,11 +73,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: linear-gradient(
-    170deg,
-    var(--sw-primary-color) 30%,
-    rgb(154, 155, 158)
-  );
+  background-color: var(--sw-primary-color);
   position: absolute;
   width: 160em;
   height: 80em;
@@ -86,23 +82,28 @@
   border-radius: 40em;
   box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.1),
     2em 2em 2em 2em rgba(0, 0, 0, 0.1), 5em 5em 5em 5em rgba(0, 0, 0, 0.05),
-    15em 15em 15em 1em rgba(0, 0, 0, 0.2);
+    15em 15em 15em 1em rgba(0, 0, 0, 0.2),
+    inset -25em -20em 30em 0.1em rgba(0, 0, 0, 0.2),
+    inset -25em -20em 20em 0.1em rgba(0, 0, 0, 0.15);
 }
 
 .Switch_slide .Switch_slide_pinch {
   width: 66em;
   height: 66em;
-  background: inherit;
+  background-color: inherit;
   border-radius: 40em;
-  box-shadow: 0 0 0 1em rgba(0, 0, 0, 0.05);
 }
 
 .Switch_slide .Switch_slide_pinch:first-child {
-  box-shadow: inset 33em 0 1em 11em #bbbdc0;
+  filter: brightness(105%);
+  box-shadow: 0.5em 0.5em 0 1em rgba(0, 0, 0, 0.05),
+    inset 15em -10em 15em 0.5em rgba(0, 0, 0, 0.12);
 }
 
 .Switch_slide .Switch_slide_pinch:last-child {
-  background: linear-gradient(-80deg, var(--sw-primary-color) 45%, #b0b2b8);
+  filter: brightness(105%);
+  box-shadow: 0 0 2em 0.8em rgba(0, 0, 0, 0.22),
+    inset 20em 10em 15em 1em rgba(0, 0, 0, 0.22);
 }
 
 .Switch_slide.Switch_slide--switched {
