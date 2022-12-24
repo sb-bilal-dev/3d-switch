@@ -1,15 +1,16 @@
 .Switch {
-  width: 300px;
-  height: 100px;
+  width: 300em;
+  height: 100em;
   background-color: #edeff2;
-  box-shadow: inset 5px 8px 5px 5px rgba(0, 0, 0, 0.08),
-    inset 3px 5px 3px 2px rgba(0, 0, 0, 0.08),
-    inset 1px 1px 1px 1.5px rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
+  box-shadow: inset 5em 8em 5em 5em rgba(0, 0, 0, 0.08),
+    inset 3em 5em 3em 2em rgba(0, 0, 0, 0.08),
+    inset 1em 1em 1em 1.5em rgba(0, 0, 0, 0.1);
+  border-radius: 50em;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  font-size: 1px;
 }
 
 .Switch input {
@@ -19,51 +20,51 @@
 }
 
 .Switch .Switch_innerBox {
-  width: 130px;
-  height: 60px;
+  width: 130em;
+  height: 60em;
   background-color: #edeff2;
 }
 
 .Switch .Switch_innerBox.Switch_innerBox--on {
   background: green;
-  box-shadow: inset 5px 3px 5px 5px rgba(0, 0, 0, 0.08),
-    inset 3px 5px 3px 2px rgba(0, 0, 0, 0.08),
-    inset 1px 2px 3px 2px rgba(0, 0, 0, 0.3),
-    inset -10px -10px 20px 10px rgba(0, 0, 0, 0.15),
-    inset 5px 2px 2px 1px rgba(0, 0, 0, 0.2),
-    inset -5px -10px 15px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 30px 0 0 30px;
+  box-shadow: inset 5em 3em 5em 5em rgba(0, 0, 0, 0.08),
+    inset 3em 5em 3em 2em rgba(0, 0, 0, 0.08),
+    inset 1em 2em 3em 2em rgba(0, 0, 0, 0.3),
+    inset -10em -10em 20em 10em rgba(0, 0, 0, 0.15),
+    inset 5em 2em 2em 1em rgba(0, 0, 0, 0.2),
+    inset -5em -10em 15em 10em rgba(0, 0, 0, 0.2);
+  border-radius: 30em 0 0 30em;
   transition: ease-out 0.6s;
 }
 
 .Switch .Switch_innerBox--on.Switch_innerBox--removed {
-  box-shadow: inset 5px 3px 5px 5px rgba(0, 0, 0, 0.08),
-    inset 3px 5px 3px 2px rgba(0, 0, 0, 0.08),
-    inset 1px 2px 3px 2px rgba(0, 0, 0, 0.3),
-    inset -10px -10px 20px 10px rgba(0, 0, 0, 0.15),
-    inset 15px 15px 10px 1px rgba(0, 0, 0, 0.25),
-    inset -15px -10px 15px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 5em 3em 5em 5em rgba(0, 0, 0, 0.08),
+    inset 3em 5em 3em 2em rgba(0, 0, 0, 0.08),
+    inset 1em 2em 3em 2em rgba(0, 0, 0, 0.3),
+    inset -10em -10em 20em 10em rgba(0, 0, 0, 0.15),
+    inset 15em 15em 10em 5em rgba(0, 0, 0, 0.25),
+    inset -20em -10em 15em 10em rgba(0, 0, 0, 0.2);
 }
 
 .Switch .Switch_innerBox.Switch_innerBox--off {
   background: #edeff2;
-  border-radius: 0 30px 30px 0;
-  box-shadow: inset 5px 3px 5px 5px rgba(0, 0, 0, 0.08),
-    inset 3px 5px 3px 2px rgba(0, 0, 0, 0.08),
-    inset 1px 2px 3px 2px rgba(0, 0, 0, 0.3),
-    inset -10px -10px 20px 10px rgba(0, 0, 0, 0.15),
-    inset 5px 2px 2px 1px rgba(0, 0, 0, 0.2),
-    inset -5px -10px 15px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0 30em 30em 0;
+  box-shadow: inset 5em 3em 5em 5em rgba(0, 0, 0, 0.08),
+    inset 3em 5em 3em 2em rgba(0, 0, 0, 0.08),
+    inset 1em 2em 3em 2em rgba(0, 0, 0, 0.3),
+    inset -10em -10em 20em 10em rgba(0, 0, 0, 0.15),
+    inset 5em 2em 2em 1em rgba(0, 0, 0, 0.2),
+    inset -5em -10em 15em 10em rgba(0, 0, 0, 0.2);
   transition: ease-out 0.6s;
 }
 
 .Switch .Switch_innerBox--off.Switch_innerBox--removed {
-  box-shadow: inset 5px 3px 5px 5px rgba(0, 0, 0, 0.08),
-    inset 3px 5px 3px 2px rgba(0, 0, 0, 0.08),
-    inset 1px 2px 3px 2px rgba(0, 0, 0, 0.3),
-    inset -10px -10px 20px 10px rgba(0, 0, 0, 0.15),
-    inset 15px 15px 10px 1px rgba(0, 0, 0, 0.25),
-    inset -15px -10px 15px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 5em 3em 5em 5em rgba(0, 0, 0, 0.08),
+    inset 3em 5em 3em 2em rgba(0, 0, 0, 0.08),
+    inset 1em 2em 3em 2em rgba(0, 0, 0, 0.3),
+    inset -10em -10em 20em 10em rgba(0, 0, 0, 0.15),
+    inset 15em 15em 10em 1em rgba(0, 0, 0, 0.25),
+    inset -15em -10em 15em 10em rgba(0, 0, 0, 0.2);
 }
 
 .Switch_slide {
@@ -73,22 +74,22 @@
   align-items: center;
   background: linear-gradient(170deg, #edeff2 30%, rgb(154, 155, 158));
   position: absolute;
-  width: 160px;
-  height: 80px;
-  left: 10px;
-  top: 10px;
-  border-radius: 40px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1),
-    2px 2px 2px 2px rgba(0, 0, 0, 0.1), 5px 5px 5px 5px rgba(0, 0, 0, 0.05),
-    15px 15px 15px 1px rgba(0, 0, 0, 0.2);
+  width: 160em;
+  height: 80em;
+  left: 10em;
+  top: 10em;
+  border-radius: 40em;
+  box-shadow: 1em 1em 1em 1em rgba(0, 0, 0, 0.1),
+    2em 2em 2em 2em rgba(0, 0, 0, 0.1), 5em 5em 5em 5em rgba(0, 0, 0, 0.05),
+    15em 15em 15em 1em rgba(0, 0, 0, 0.2);
 }
 
 .Switch_slide .Switch_slide_pinch {
-  width: 66px;
-  height: 66px;
+  width: 66em;
+  height: 66em;
   background: #edeff2;
-  border-radius: 40px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  border-radius: 40em;
+  box-shadow: 0 0 0 1em rgba(0, 0, 0, 0.05);
 }
 
 .Switch_slide .Switch_slide_pinch:first-child {
@@ -100,5 +101,5 @@
 }
 
 .Switch_slide.Switch_slide--switched {
-  transform: translateX(120px);
+  transform: translateX(120em);
 }
